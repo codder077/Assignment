@@ -5,11 +5,10 @@ import GalleryItem from "./GalleryItem";
 function Gallery() {
   const initialImages = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8Hg7W_MXeeKhuUBPVB7FMrYOMhIUHdllpQ&s",
-    "https://via.placeholder.com/100/0000FF/808080",
-    "https://via.placeholder.com/100/FF0000/FFFFFF",
-    "https://via.placeholder.com/100/00FF00/000000",
-    "https://via.placeholder.com/100/FFFF00/000000",
-    "https://via.placeholder.com/100/FF00FF/000000",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8Hg7W_MXeeKhuUBPVB7FMrYOMhIUHdllpQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8Hg7W_MXeeKhuUBPVB7FMrYOMhIUHdllpQ&s",
+   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8Hg7W_MXeeKhuUBPVB7FMrYOMhIUHdllpQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8Hg7W_MXeeKhuUBPVB7FMrYOMhIUHdllpQ&s"
   ];
 
   const [images, setImages] = useState(initialImages);
